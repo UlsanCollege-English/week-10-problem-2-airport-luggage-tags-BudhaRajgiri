@@ -1,4 +1,5 @@
-
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from main import make_table_open, put_open, get_open, delete_open
 
